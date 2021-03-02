@@ -1,0 +1,196 @@
+<mxfile host="65bd71144e" modified="2021-03-02T19:24:30.388Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.53.2 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36" etag="fiYFKcYaCQge1Ih0fU9c" version="14.2.4" type="embed">
+    <diagram id="OwgzKi6Y6mBWUi-YpJGK" name="Page-1">
+        <mxGraphModel dx="1070" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="126" value="Question record" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="A Start" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
+                    <mxGeometry x="10" y="20" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="User Input" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="72">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="345" y="120"/>
+                            <mxPoint x="400" y="120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="1.0 Question asked" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="10" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="10" y="200" as="sourcePoint"/>
+                        <mxPoint x="840" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="Topic Records,&lt;br&gt;Relationship&lt;br&gt;Records" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="45" target="60" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="110" y="415" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="C Start" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
+                    <mxGeometry y="400" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="&lt;h1&gt;Identifying question components&lt;/h1&gt;&lt;div&gt;Identifying focus &amp;amp; format.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="440" width="240" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="Focus&lt;br&gt;Record" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="60" target="62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="Topic or Relationship&lt;br&gt;Focus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="60" target="77">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="1.0 Identify Next&lt;br&gt;question focus." style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="390" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="Focus Record,&lt;br&gt;format record" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="62" target="140">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="415" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="155" value="Focus&lt;br&gt;Record" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="62" target="154">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="2.0 Identify&amp;nbsp;&lt;br&gt;question format" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="390" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="User Input" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="72">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="510" y="35" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="470" y="175"/>
+                            <mxPoint x="470" y="35"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="D&amp;nbsp; &amp;nbsp; &amp;nbsp; Answer Store" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+                    <mxGeometry x="350" y="160" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="Focus&lt;br&gt;Record" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="77" target="60">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="D&amp;nbsp; &amp;nbsp; &amp;nbsp; Focus Store" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+                    <mxGeometry x="190" y="510" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="10" y="550" as="sourcePoint"/>
+                        <mxPoint x="840" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="10" y="380" as="sourcePoint"/>
+                        <mxPoint x="840" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="User&lt;br&gt;Input" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="92" target="95">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="B Start" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+                    <mxGeometry x="10" y="220" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="Nouns/Verbs/Adjectives" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.172;exitY=1.1;exitDx=0;exitDy=0;entryX=0.172;entryY=-0.006;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="95" target="97">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="User&lt;br&gt;Input &amp;amp;&lt;br&gt;Topic&lt;br&gt;Records" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="95" target="99">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="1.0 POS Tag" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="210" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="Topic records" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="97" target="95">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="D&amp;nbsp; &amp;nbsp; &amp;nbsp; Topic Store" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+                    <mxGeometry x="150" y="320" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="Relationships" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="99" target="102">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="Topic Records,&lt;br&gt;Relationship&lt;br&gt;Records" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="99" target="109">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="2.0 Identify&lt;br&gt;Relationships" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="210" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="Relationship&lt;br&gt;Records" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="102" target="99">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="D&amp;nbsp; &amp;nbsp; &amp;nbsp; Relationship Store" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+                    <mxGeometry x="350" y="320" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="B Start" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+                    <mxGeometry x="510" y="20" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="&lt;h1&gt;Question Process&lt;/h1&gt;&lt;p&gt;Asking user questions, collecting input.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="80" width="190" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="C Start" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+                    <mxGeometry x="580" y="220" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="&lt;h1&gt;Processing Input&lt;/h1&gt;&lt;div&gt;POS Tagging, Relationship identification.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="260" width="190" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="D Start" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+                    <mxGeometry x="600" y="400" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="Focus record,&lt;br&gt;format record" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="141">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="585" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="141" value="D Start" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+                    <mxGeometry x="10" y="570" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="Question" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="143" target="144">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="Question Record,&lt;br&gt;Focus Record" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="143" target="148">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="Question record" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="143" target="151">
+                    <mxGeometry x="-0.5429" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="530" y="573"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="143" value="1.0 Format&lt;br&gt;Question" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="560" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" value="Question record" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="144" target="143">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="D&amp;nbsp; &amp;nbsp; &amp;nbsp; Question Store" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+                    <mxGeometry x="180" y="660" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="Question focus&lt;br&gt;record" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="148" target="143">
+                    <mxGeometry x="-0.6078" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="148" value="D&amp;nbsp; &amp;nbsp; &amp;nbsp; Question Focus Store" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+                    <mxGeometry x="360" y="660" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="A Start" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+                    <mxGeometry x="550" y="580" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="&lt;h1&gt;Creating question&lt;/h1&gt;&lt;div&gt;Formatting question text, saving question, creating/saving question/focus association.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="620" width="240" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="Format record" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="154" target="62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="D&amp;nbsp; &amp;nbsp; &amp;nbsp; Question format store" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+                    <mxGeometry x="380" y="510" width="100" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
