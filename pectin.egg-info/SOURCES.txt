@@ -1,0 +1,7 @@
+setup.py
+pectin/__init__.py
+pectin/__main__.py
+pectin.egg-info/PKG-INFO
+pectin.egg-info/SOURCES.txt
+pectin.egg-info/dependency_links.txt
+pectin.egg-info/top_level.txt
