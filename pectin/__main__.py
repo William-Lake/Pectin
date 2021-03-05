@@ -1,21 +1,14 @@
 import logging
 
-from db.models import (
-    database,
-    AttributeType,
-    Attribute,
-    ObjectType,
-    Object,
-    RelationshipType,
-    Relationship
-)
+from db.models import *
 
 
 def main(args):
     
     # Just testing things out at the moment.
-    database.init(r'.\test.db')
     
+    # With this method you can pass in a database name from args so that previous progress can be continued.
+    database.init(r'.\test.db')
     database.connect()
     
     # Can't run the create_db.sql script directly
@@ -23,6 +16,10 @@ def main(args):
     # so this is the next best thing.
     # Creates the database tables.
     database.create_tables([
+        Content,
+        Question,
+        Answer,
+        AnswerContent,
         ObjectType,
         AttributeType,
         RelationshipType,
@@ -31,7 +28,7 @@ def main(args):
         Relationship
     ])
     
-    # This works.
+    # Testing out creating a record and saving it. It works.
     ot = ObjectType(description='desc',name='name')
     
     ot.save()
