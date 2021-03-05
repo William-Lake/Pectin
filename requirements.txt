@@ -3,3 +3,4 @@ black
 vulture
 pytest
 peewee
+sqlparse
